@@ -2,7 +2,7 @@
 layout: post
 title:  3D Logic Game in Unity
 date:   2017-10-27 12:46:27 +0300
-img: 5.jpg
+img: MiddleRoom.jpg
 tags: [Unity, C#, bachelor-thesis]
 ---
 As my bachelor thesis, I did a 3D logic game in Unity.
