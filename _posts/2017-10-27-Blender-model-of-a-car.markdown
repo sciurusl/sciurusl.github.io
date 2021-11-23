@@ -9,8 +9,9 @@ In Blender, I created a model of Mazda MX-5 Nd Rf.
 
 ![Flower and water]({{site.baseurl}}/images/pages/BlenderCar/car2.jpg)
 
-The process of creating the model and the materials is described in two pdf files, that can be opened here: 
-[link](https://drive.google.com/drive/folders/1QjOYbIpHDMQb3QatyPtTryLgO2YkcgNY?usp=sharing)
+The process of creating the model and the materials is described in these two pdf files:
+<object data="https://drive.google.com/drive/u/1/folders/1QjOYbIpHDMQb3QatyPtTryLgO2YkcgNY" width="100%" height="1080px" type='application/pdf'></object>
+<object data="https://drive.google.com/drive/u/1/folders/1QjOYbIpHDMQb3QatyPtTryLgO2YkcgNY" width="100%" height="1080px" type='application/pdf'></object>
 
 <object data="pdf/Creating-model-of-mazda.pdf" width="100%" height="1080px" type='application/pdf'></object>
 
