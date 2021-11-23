@@ -2,7 +2,7 @@
 layout: post
 title:  OpenGL village
 date:   2017-10-27 10:11:50 +0300
-img: screenshot3jpg
+img: screenshot3.jpg
 tags: [OpenGL, C++]
 ---
 For a student project, I created a small village scene in OpenGL and C++, where the player could
