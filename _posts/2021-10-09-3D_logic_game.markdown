@@ -2,7 +2,7 @@
 layout: post
 title: Bachelor thesis: 3D logic game in Unity
 date: 2021-10-09 17:34:27 +0300
-img: MiddleRoom.PNG
+img: MiddleRoom.jpg
 tags: Unity, bachelor-thesis
 ---
 As my bachelor thesis, I did a 3D logic game in Unity. 
@@ -14,7 +14,7 @@ I created 3 levels with 29 puzzle rooms. All models were created in Blender, and
 
 PLNY_TEXT is the pdf version of the thesis. The project with the code is zipped and shattered across the PRILOHA files. To open the project, downloading and extracting all PRILOHA files is necessary. C# files are in Assets/Scripts folder. Models can be found in Assets/Models folder. To try out the game, Unity has to be downloaded on the computer. I uploaded short gameplay to Youtube: 3D Logic Game, Lucie Veverkova - YouTube.
 
-![One of the rooms]({{site.baseurl}}/images/pages/BP/playerBlender.jpg)
-![One of the rooms]({{site.baseurl}}/images/pages/BP/modularComponentCombination.jpg)
+![player model]({{site.baseurl}}/images/pages/BP/playerBlender.jpg)
+![modular components]({{site.baseurl}}/images/pages/BP/modularComponentsCombination.jpg)
 
 
