@@ -13,6 +13,6 @@ The process of creating the model and the materials is described in these two pd
 <object data="https://drive.google.com/drive/u/1/folders/1QjOYbIpHDMQb3QatyPtTryLgO2YkcgNY" width="100%" height="1080px" type='application/pdf'></object>
 <object data="https://drive.google.com/drive/u/1/folders/1QjOYbIpHDMQb3QatyPtTryLgO2YkcgNY" width="100%" height="1080px" type='application/pdf'></object>
 
-<object data={{site.baseurl}}"pdf/Creating-model-of-mazda.pdf" width="100%" height="1080px" type='application/pdf'></object>
+<object data="{{site.baseurl}}/pdf/Creating-model-of-mazda.pdf" width="100%" height="1080px" type='application/pdf'></object>
 
 ![Flower and water]({{site.baseurl}}/images/pages/BlenderCar/car3.jpg)

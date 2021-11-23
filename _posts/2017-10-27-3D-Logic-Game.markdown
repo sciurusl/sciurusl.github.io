@@ -22,7 +22,8 @@ Here is the pdf version of the thesis:
 
 The project can be downloaded on this page: [Dspace](https://dspace.cvut.cz/handle/10467/94656).
 
-The project with the code is zipped and splitted in the PRILOHA files. To open the project, downloading and extracting all PRILOHA files is necessary. C# files are in Assets/Scripts folder. Models can be found in Assets/Models folder. To try out the game, Unity has to be downloaded on the computer. 
+The project with the code is zipped and splitted in the PRILOHA files. To open the project, downloading and extracting all PRILOHA files is necessary. C# files are in Assets/Scripts folder. Models can be found in Assets/Models folder. 
+To try out the game in the project, Unity and Blender has to be downloaded on the computer.
 
 I uploaded short gameplay to Youtube:
 [Youtube](https://www.youtube.com/watch?app=desktop&v=VPyuXbMLG64)
