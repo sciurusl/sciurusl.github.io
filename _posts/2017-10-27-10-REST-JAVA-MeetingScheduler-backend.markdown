@@ -2,11 +2,11 @@
 layout: post
 title: Meeting Scheduler backend in Java using REST
 date: 2017-10-27 18:09:50 +0300
-img: userDAO.jpg
+img: MeetingScheduler/userDAO.jpg
 tags: [JAVA, REST]
 ---
 
-As part of a semestral project, in a team of two, we created a backend of a meeting scheduler JAVA application using REST.
+As a semestral project in a team of two, we created a backend of a meeting scheduler JAVA application using REST.
 To test the application, we have written 58 unit tests and even tested it in 
 
 The system description:
@@ -31,7 +31,7 @@ in terms of 0-10 points) and can fill in a remark.
 - participant
 
 ### Overall description
-##Product perspective
+## Product perspective
 Database stores the following information:
 * Meetings:
 This includes a time stamp of when a meeting was created, its participants,
@@ -44,7 +44,7 @@ It includes first name, last name, his email, password and meetings he was
 part of.
 
 
-##Meeting class and characteristics
+## Meeting class and characteristics
 User should be able to do following actions:
 - Create meeting
 - Add an answer to a meeting he has been invited to participate in
@@ -59,13 +59,14 @@ Creator of the meeting should also have the following actions:
 * Edit meeting later
 * Delete his meeting
 
-##Project Structure
+## Project Structure
+
 ![model]({{site.baseurl}}/images/pages/MeetingScheduler/model.jpg)
 
 ER model:
 ![ER model]({{site.baseurl}}/images/pages/MeetingScheduler/ERModel.jpg)
 
-##Code example
+## Code example
 User class:
 ![user]({{site.baseurl}}/images/pages/MeetingScheduler/user.jpg)
 
