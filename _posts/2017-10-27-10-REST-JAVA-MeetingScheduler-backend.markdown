@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Backend of meeting scheduler
+title: Meeting Scheduler backend in Java using REST
 date: 2017-10-27 18:09:50 +0300
 img: 17.jpg
 tags: [Books, Hobby]
 ---
 
-As part of a semestral project, in a team of two, we created a backend of a meeting scheduler application using REST and JAVA.
+As part of a semestral project, in a team of two, we created a backend of a meeting scheduler JAVA application using REST.
 To test the application, we have written 58 unit tests and even tested it in 
 
 The system description:
