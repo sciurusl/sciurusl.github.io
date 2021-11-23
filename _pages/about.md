@@ -3,25 +3,29 @@ layout: page
 title: About
 image: 12.jpg
 ---
-My name is Ben Campbell. I'm an actor and a musician. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+My name is Lucie Veverková. I'm a student of Czech Technical University in Prague,
+where I study Computer Graphics as major program specialization and Software Engineering as minor specialization.
 
+I gained my bachelor's degree at the same university in June 2021 from Computer Games and Graphics specialization.
 ***
 
-#### Austin scenester...
-<small>1995 - 2000</small>
+### About me
+I am a huge animal lover. I have two perfect cats who make me smile everyday. 
+Some of my hobbies are singing, painting, (I would say also running, but I'd be lying), reading, playing video games.
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+### About my studies
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+During my education, I gained valuable experience in coding in many different languages such as
+Java, C#, C, C++, Python, and Matlab. I improved my critical thinking, gained the ability to work in teams,
+solve problems, and gained knowledge in data structures and algorithms. I can work with SQL
+databases and REST projects. My specialization was also very mathematically based, which, among
+other things, led to the development of logical thinking. I am able to learn quickly, which means I can
+easily adapt to a new environment.
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
-
-#### La croix you probably...
-<small>2008 - 2015</small>
-
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+I gained knowledge of programming graphics, creating 2D and 3D graphic content in Blender, and implementation of user interfaces during my studies. I learned
+OpenGL basics. For one of many student projects, I created a small village scene in OpenGL + C++, where the
+player could move, change the camera, and interact with the environment. The topic of my
+bachelor's thesis was creating a 3D logic game in Unity, which means I am familiar with this engine.
 
 ***
 
