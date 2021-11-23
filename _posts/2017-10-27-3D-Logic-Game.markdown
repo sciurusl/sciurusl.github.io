@@ -13,14 +13,19 @@ The game's main concept is mirroring of the worlds, where the player must move c
 ![modular components]({{site.baseurl}}/images/pages/BP/modularComponentsCombination.jpg)
 
 ![player model]({{site.baseurl}}/images/pages/BP/tutorial.jpg)
+
 I created 3 levels with 29 puzzle rooms. All models were created in Blender, and the implementation was done in C# in Unity. 
 The game design document with a little bit more information about the game is part of the bachelor thesis (specifically the Game Design Document chapter). 
-Here is the pdf version of the thesis: <object data="https://dspace.cvut.cz/bitstream/handle/10467/94656/F3-BP-2021-Veverkova-Lucie-Bachelor_thesis_veverlu4.pdf?sequence=-1&isAllowed=y" width="100%" height="1080px" type='application/pdf'></object>
+Here is the pdf version of the thesis: 
 
-The project can be downloaded on this page: [Dspace](https://dspace.cvut.cz/handle/10467/94656)
-The project with the code is zipped and splitted in the PRILOHA files. To open the project, downloading and extracting all PRILOHA files is necessary. C# files are in Assets/Scripts folder. Models can be found in Assets/Models folder. To try out the game, Unity has to be downloaded on the computer. I uploaded short gameplay to Youtube:
+<object data="https://dspace.cvut.cz/bitstream/handle/10467/94656/F3-BP-2021-Veverkova-Lucie-Bachelor_thesis_veverlu4.pdf?sequence=-1&isAllowed=y" width="100%" height="1080px" type='application/pdf'></object>
 
-<iframe src="https://www.youtube.com/watch?app=desktop&v=VPyuXbMLG64" frameborder="0" allowfullscreen></iframe>
+The project can be downloaded on this page: [Dspace](https://dspace.cvut.cz/handle/10467/94656).
+
+The project with the code is zipped and splitted in the PRILOHA files. To open the project, downloading and extracting all PRILOHA files is necessary. C# files are in Assets/Scripts folder. Models can be found in Assets/Models folder. To try out the game, Unity has to be downloaded on the computer. 
+
+I uploaded short gameplay to Youtube:
+[Youtube](https://www.youtube.com/watch?app=desktop&v=VPyuXbMLG64)
 
 ![player model]({{site.baseurl}}/images/pages/BP/playerBlender.jpg)
 
