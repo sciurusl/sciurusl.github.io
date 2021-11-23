@@ -13,6 +13,6 @@ cut trees by clicking on them, collect wood and light a fire by clicking on one 
 The player can turn on a flashlight, a fog, change camera and open a menu. The time changes, which is visualized by 
 darkening and dawning of the sky.
 
-![village1]({{site.baseurl}}/images/pages/PGR/mscreenshot1.jpg)
+![village1]({{site.baseurl}}/images/pages/PGR/screenshot1.jpg)
 
-![fog]({{site.baseurl}}/images/pages/PGR/mscreenshot2.jpg)
+![fog]({{site.baseurl}}/images/pages/PGR/screenshot2.jpg)
