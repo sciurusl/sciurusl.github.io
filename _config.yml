@@ -1,6 +1,6 @@
 # Site settings
-title: Lokmont
-description: Lokmont is a responsive simple theme for Jekyll.
+title: Sciurusl
+description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sciurusl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -12,7 +12,8 @@ hero-description: Let me show you some of my projects.
 # Author - Creator
 author-name: Lucie Veverkova
 author-image: 10.jpg
-about-author: My name is Ben Campbell. I'm an actor and a musician. Retro wolf banjo succulen tsgoch ujang tumeric hammock offal.
+about-author: My name is Lucie Veverkova. I'm a student on Czech Technical University in Prague,
+  where I study computer graphics as major and Software engineering as minor field.
 author-email: veverkova.lucie1@gmail.com
 author-twitter: https://twitter.com/
 author-facebook: https://twitter.com/
@@ -38,6 +39,7 @@ google-plus: https://plus.google.com/
 instagram: https://www.instagram.com/
 pinterest: https://pinterest.com/
 youtube: https://www.youtube.com/
+linkedin: https://www.linkedin.com/in/lucie-veverkova/
 
 # Contact Form Settings
 contact-subtitle: Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Kogi cornhole enamel. # Title for the subscription form.
@@ -49,7 +51,7 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
 
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: lucinka # Add your shortname for Disqus Comment. For example mr-brown
 
 # Build settings
 markdown: kramdown
