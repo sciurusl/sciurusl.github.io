@@ -38,6 +38,7 @@ This includes a time stamp of when a meeting was created, its participants,
 available options to choose from and a final decision, given one was issued
 yet.
 
+
 * Users:
 It includes first name, last name, his email, password and meetings he was
 part of.
@@ -45,11 +46,11 @@ part of.
 
 ##Meeting class and characteristics
 User should be able to do following actions:
-* Create meeting
-* Add an answer to a meeting he has been invited to participate in
-**Vote for multiple options
-**Set preference from 1-10
-* View current status for a meeting he has participated in
+- Create meeting
+- Add an answer to a meeting he has been invited to participate in
+  - Vote for multiple options
+  - Set preference from 1-10
+- View current status for a meeting he has participated in
 
 Creator of the meeting should also have the following actions:
 * Add/remove available times
