@@ -5,7 +5,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sciurusl.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Banner Section
-hero: front.JPG
+hero: 112.jpg
 hero-title: Lucie Veverkova
 hero-description: Let me show you some of my projects.
 
@@ -13,7 +13,7 @@ hero-description: Let me show you some of my projects.
 author-name: Lucie Veverkova
 author-image: 10.jpg
 about-author: My name is Lucie Veverkova. I'm a student of Czech Technical University in Prague,
-  where I study computer graphics as major and Software engineering as minor specialization.
+  where I study computer graphics as major program specialization and Software engineering as minor specialization.
 author-email: veverkova.lucie1@gmail.com
 author-twitter: https://twitter.com/
 author-facebook: https://twitter.com/

@@ -3,7 +3,7 @@ layout: post
 title: Bachelor thesis: 3D logic game in Unity
 date: 2017-10-09 17:33:28 +0300
 img: BP/MiddleRoom.PNG
-tags: Unity, bachelor thesis
+tags: Unity, bachelor-thesis
 ---
 As my bachelor thesis, I did a 3D logic game in Unity. 
 The game's main concept is mirroring of the worlds, where the player must move certain things or somehow interact with the environment to open the door to the next room. 
