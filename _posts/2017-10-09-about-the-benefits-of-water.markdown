@@ -7,5 +7,5 @@ tags: Unity, bachelor thesis
 ---
 As my bachelor thesis, I 
 
-![One of the rooms]({{site.baseurl}}/images/pages/room3_7.jpg)
+![One of the rooms]({{site.baseurl}}/images/BP/room3_7.jpg)
 
