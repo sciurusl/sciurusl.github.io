@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bachelor thesis: 3D logic game in Unity
-date: 
+date: 2021-10-09 17:34:27 +0300
 img: BP/MiddleRoom.PNG
 tags: Unity, bachelor-thesis
 ---
