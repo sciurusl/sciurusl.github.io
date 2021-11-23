@@ -16,3 +16,12 @@ darkening and dawning of the sky.
 ![village1]({{site.baseurl}}/images/pages/PGR/screenshot1.jpg)
 
 ![fog]({{site.baseurl}}/images/pages/PGR/screenshot2.jpg)
+
+An example of some of the shaders: 
+This is the vertex shader of the light shader, which computes color in the current vertex
+
+![vertex shader]({{site.baseurl}}/images/pages/PGR/openglvert.jpg)
+
+This is the fragment shader of the light shader, which computes color in the current fragment
+
+![fragment shader]({{site.baseurl}}/images/pages/PGR/openglfrag.jpg)
