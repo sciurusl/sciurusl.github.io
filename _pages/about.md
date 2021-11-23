@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-image: 12.jpg
+image: front.jpg
 ---
 My name is Lucie Veverková. I'm a student of Czech Technical University in Prague,
 where I study Computer Graphics as major program specialization and Software Engineering as minor specialization.
