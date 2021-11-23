@@ -31,7 +31,8 @@ in terms of 0-10 points) and can fill in a remark.
 - participant
 
 ### Overall description
-## Product perspective
+
+### Product perspective
 Database stores the following information:
 * Meetings:
 This includes a time stamp of when a meeting was created, its participants,
@@ -43,8 +44,7 @@ yet.
 It includes first name, last name, his email, password and meetings he was
 part of.
 
-
-## Meeting class and characteristics
+### Meeting class and characteristics
 User should be able to do following actions:
 - Create meeting
 - Add an answer to a meeting he has been invited to participate in
@@ -59,14 +59,14 @@ Creator of the meeting should also have the following actions:
 * Edit meeting later
 * Delete his meeting
 
-## Project Structure
+### Project Structure
 
 ![model]({{site.baseurl}}/images/pages/MeetingScheduler/model.jpg)
 
 ER model:
 ![ER model]({{site.baseurl}}/images/pages/MeetingScheduler/ERModel.jpg)
 
-## Code example
+### Code example
 User class:
 ![user]({{site.baseurl}}/images/pages/MeetingScheduler/user.jpg)
 
