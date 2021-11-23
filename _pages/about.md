@@ -7,6 +7,7 @@ My name is Lucie Veverková. I'm a student of Czech Technical University in Prag
 where I study Computer Graphics as major program specialization and Software Engineering as minor specialization.
 
 I gained my bachelor's degree at the same university in June 2021 from Computer Games and Graphics specialization.
+
 ***
 
 ### About me
