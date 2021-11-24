@@ -28,6 +28,10 @@ OpenGL basics. For one of many student projects, I created a small village scene
 player could move, change the camera, and interact with the environment. The topic of my
 bachelor's thesis was creating a 3D logic game in Unity, which means I am familiar with this engine.
 
+
+## Code examples
+Code examples can be found here: [Github](https://github.com/sciurusl?tab=repositories)
+
 ***
 
 *Thank You for reading!*

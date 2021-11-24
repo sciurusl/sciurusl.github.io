@@ -200,7 +200,6 @@ User class:
 
 
 
-![user]({{site.baseurl}}/images/pages/MeetingScheduler/user.jpg)
 
 User DAO:
 
@@ -241,7 +240,6 @@ User DAO:
     }
 
 
-![user DAO]({{site.baseurl}}/images/pages/MeetingScheduler/userDAO.jpg)
 
 User controller:
 
@@ -382,7 +380,6 @@ User controller:
     }
 
 
-![user Controller]({{site.baseurl}}/images/pages/MeetingScheduler/userController.jpg)
 
 User service:
 
@@ -484,5 +481,3 @@ User service:
             return user.getAnswers();
         }
     }
-
-![user Service]({{site.baseurl}}/images/pages/MeetingScheduler/userService.jpg)

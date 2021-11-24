@@ -112,11 +112,8 @@ This is part of the vertex shader which computes color using texture and light i
     }
 
 
-![vertex shader]({{site.baseurl}}/images/pages/PGR/openglvert.jpg)
 
 This is part of the fragment shader which computes color in the current fragment
-
-
 
     #version 140
     
@@ -267,5 +264,3 @@ This is part of the fragment shader which computes color in the current fragment
     }
 
 
-
-![fragment shader]({{site.baseurl}}/images/pages/PGR/openglfrag.jpg)
