@@ -67,9 +67,10 @@ ER model:
 ![ER model]({{site.baseurl}}/images/pages/MeetingScheduler/ERModel.jpg)
 
 ### Code example
-User class:
+Part of the project can be found here [Github](https://github.com/sciurusl/Meeting-Scheduler). There are dao objects, 
+service classes, controller classes, object classes and tests.
 
-'''
+User class:
 
     @Entity
     // We can't name the table User, as it is a reserved table name in some dbs, including Postgres
@@ -197,13 +198,13 @@ User class:
         }
     }
 
-'''
+
 
 ![user]({{site.baseurl}}/images/pages/MeetingScheduler/user.jpg)
 
 User DAO:
 
-'''
+
 
     @Repository
     public class UserDao extends BaseDao<User> {
@@ -239,13 +240,11 @@ User DAO:
     
     }
 
-'''
 
 ![user DAO]({{site.baseurl}}/images/pages/MeetingScheduler/userDAO.jpg)
 
 User controller:
 
-'''
 
     @RestController
     @RequestMapping("/rest/users")
@@ -382,13 +381,10 @@ User controller:
     
     }
 
-'''
 
 ![user Controller]({{site.baseurl}}/images/pages/MeetingScheduler/userController.jpg)
 
 User service:
-
-'''
 
     @Service
     public class UserService {
@@ -489,5 +485,4 @@ User service:
         }
     }
 
-'''
 ![user Service]({{site.baseurl}}/images/pages/MeetingScheduler/userService.jpg)

@@ -20,9 +20,11 @@ Here is the pdf version of the thesis:
 
 <object data="https://dspace.cvut.cz/bitstream/handle/10467/94656/F3-BP-2021-Veverkova-Lucie-Bachelor_thesis_veverlu4.pdf?sequence=-1&isAllowed=y" width="100%" height="1080px" type='application/pdf'></object>
 
-The project can be downloaded on this page: [Dspace](https://dspace.cvut.cz/handle/10467/94656).
+The project can be downloaded here: [Github](https://github.com/sciurusl/3D-logic-game-in-Unity) 
 
-The project with the code is zipped and splitted in the PRILOHA files. To open the project, downloading and extracting all PRILOHA files is necessary. C# files are in Assets/Scripts folder. Models can be found in Assets/Models folder. 
+or here: [Dspace](https://dspace.cvut.cz/handle/10467/94656)
+
+Where the project with the code is zipped and splitted in the PRILOHA files. To open the project, downloading and extracting all PRILOHA files is necessary. C# files are in Assets/Scripts folder. Models can be found in Assets/Models folder. 
 To try out the game in the project, Unity and Blender has to be downloaded on the computer.
 
 I uploaded short gameplay to 

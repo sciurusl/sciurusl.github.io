@@ -18,9 +18,9 @@ darkening and dawning of the sky.
 ![fog]({{site.baseurl}}/images/pages/PGR/screenshot2.jpg)
 
 An example of some of the shaders: 
-This is part of the vertex shader which computes color using texture and light in the current vertex
+The part of the project can be found here: [Github](https://github.com/sciurusl/OpenGL-village).
 
-'''
+This is part of the vertex shader which computes color using texture and light in the current vertex
 
     struct Material {      // structure that describes currently used material
     vec3  ambient;       // ambient component
@@ -111,13 +111,12 @@ This is part of the vertex shader which computes color using texture and light i
     texCoord_v = texCoord;
     }
 
-'''
 
 ![vertex shader]({{site.baseurl}}/images/pages/PGR/openglvert.jpg)
 
 This is part of the fragment shader which computes color in the current fragment
 
-'''
+
 
     #version 140
     
@@ -267,7 +266,6 @@ This is part of the fragment shader which computes color in the current fragment
 		color_f = mix(vec4(vec3(0.5, 0.5, 0.5), 1.0), color_f, visibility);
     }
 
-'''
 
 
 ![fragment shader]({{site.baseurl}}/images/pages/PGR/openglfrag.jpg)
