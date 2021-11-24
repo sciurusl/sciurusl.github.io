@@ -29,6 +29,16 @@
       <li><a href="{{ site.youtube }}" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
     {% else %}
     {% endif %}
+      {% if site.linkedin_username %}
+      <li class="list-inline-item">
+        <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username }}">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+        </a>
+      </li>
+      {% endif %}
     </ul>
 
     <div class="copyright">
