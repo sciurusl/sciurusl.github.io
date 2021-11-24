@@ -21,6 +21,7 @@ An example of some of the shaders:
 This is part of the vertex shader which computes color using texture and light in the current vertex
 
 '''
+
     struct Material {      // structure that describes currently used material
     vec3  ambient;       // ambient component
     vec3  diffuse;       // diffuse component
@@ -117,6 +118,7 @@ This is part of the vertex shader which computes color using texture and light i
 This is part of the fragment shader which computes color in the current fragment
 
 '''
+
     #version 140
     
     struct Material {           // structure that describes currently used material
@@ -264,6 +266,7 @@ This is part of the fragment shader which computes color in the current fragment
 	if(fog)
 		color_f = mix(vec4(vec3(0.5, 0.5, 0.5), 1.0), color_f, visibility);
     }
+
 '''
 
 
