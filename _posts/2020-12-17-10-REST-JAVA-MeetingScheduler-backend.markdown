@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Meeting Scheduler backend in Java using REST
-date: 2017-10-27 18:09:50 +0300
+date: 2020-12-17 18:09:50 +0300
 img: MeetingScheduler/userDAO.jpg
 tags: [JAVA, REST]
 ---

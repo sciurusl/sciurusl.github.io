@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  3D Logic Game 2 in Unity
+title:  3D Logic Game in Unity
 date:   2021-05-20 12:46:27 +0300
 img: BP/MiddleRoomBig.jpg
 tags: [Unity, C#, bachelor-thesis]

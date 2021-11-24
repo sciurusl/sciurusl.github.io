@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Blender model of a car
-date:   2017-10-27 11:20:27 +0300
+date:   2020-12-12 11:20:27 +0300
 img: BlenderCar/car1.jpg
 tags: [Blender, model]
 ---

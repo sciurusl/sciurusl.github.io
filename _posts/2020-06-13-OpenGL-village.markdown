@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  OpenGL village
-date:   2017-10-27 10:11:50 +0300
+date:   2020-06-13 10:11:50 +0300
 img: PGR/fire.jpg
 tags: [OpenGL, C++]
 ---
