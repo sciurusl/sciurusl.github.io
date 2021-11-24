@@ -69,7 +69,6 @@ ER model:
 ### Code example
 Part of the project can be found here [Github](https://github.com/sciurusl/Meeting-Scheduler). There are dao objects, 
 service classes, controller classes, object classes and tests.
-
 User class:
 
     @Entity
@@ -197,6 +196,7 @@ User class:
                     "(" + username + ")}";
         }
     }
+
 
 
 
