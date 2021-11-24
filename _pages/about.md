@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About me
 image: front.jpg
 ---
 My name is Lucie Veverková. I'm a student of Czech Technical University in Prague,
