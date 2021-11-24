@@ -18,7 +18,7 @@ darkening and dawning of the sky.
 ![fog]({{site.baseurl}}/images/pages/PGR/screenshot2.jpg)
 
 An example of some of the shaders: 
-This is part of the vertex shader which computes color according using texture and light in the current vertex
+This is part of the vertex shader which computes color using texture and light in the current vertex
 
 ![vertex shader]({{site.baseurl}}/images/pages/PGR/openglvert.jpg)
 
