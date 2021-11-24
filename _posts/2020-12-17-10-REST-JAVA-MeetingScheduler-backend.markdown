@@ -71,6 +71,8 @@ Part of the project can be found here [Github](https://github.com/sciurusl/Meeti
 service classes, controller classes, object classes and tests.
 User class:
 
+'''Java
+
     @Entity
     // We can't name the table User, as it is a reserved table name in some dbs, including Postgres
     @Table(name = "EAR_USER")
@@ -197,7 +199,7 @@ User class:
         }
     }
 
-
+'''
 
 
 
