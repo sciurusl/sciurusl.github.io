@@ -7,7 +7,7 @@ tags: [JAVA, REST]
 ---
 
 As a semestral project in a team of two, we created a backend of a meeting scheduler JAVA application using REST.
-To test the application, we have written 58 unit tests and even tested it in 
+To test the application, we have written 58 unit tests and further tested it in Postman
 
 The system description:
 The system is similar to Doodle, but has more functions. The
