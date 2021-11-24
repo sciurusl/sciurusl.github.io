@@ -77,6 +77,10 @@ layout: default
           <a href="mailto:{{ author.author-email }}"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
           {% else %}
           {% endif %}
+          {% if author.author-linkedin %}
+          <a href="{{ author.author-linkedin }}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          {% else %}
+          {% endif %}
         </div>
       </div>
       {% else %}
