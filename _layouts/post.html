@@ -21,8 +21,6 @@ layout: default
     </div>
 
     <footer class="post-footer">
-
-      {% if page.tags.size >= 1 %}
       <div class="post-tag">
         <span>Tags:</span>
         {% for tag in page.tags %}
@@ -67,10 +65,6 @@ layout: default
         <div class="post-author-meta">
           {% if site.twitter %}
           <a href="{{ site.twitter }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-          {% else %}
-          {% endif %}
-          {% if site.linkedin %}
-          <a href="{{ site.linkedin}}" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
           {% else %}
           {% endif %}
           {% if site.facebook %}
