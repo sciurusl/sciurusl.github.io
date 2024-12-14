@@ -3,7 +3,7 @@ layout: post
 title:  Cloth Animation | Animation of skirt on a dancer
 date:   2023-12-14 10:11:50 +0300
 img: MMA/Dancer0.png
-tags: [OpenGL, C++]
+tags: [Physics, Animation, Unreal Engine, C++]
 ---
 The goal of this univeristy project was to implement a simulation of cloth model as a skirt on a dancer. The simulation is implemented in
 Unreal Engine 5.0.3.
@@ -33,6 +33,7 @@ a grid. These particles are connected to each other by massless springs to simul
 the cloth. The springs are of three types based on what they are responsible for on the cloth. These
 springs are responsible for the stretch, shear, or bend forces acting on the particles. The springs and
 their position based on the spring type are visualized in Figure 1.
+
 These rules set the position of the specific type of spring:
     • Structural springs connect particles with indexes [i,j] and [i+1, j], and [i,j] and [i, j+1]
     • Shear springs connect particles with indexes [i,j] and [i+1, j+1], and [i+1,j] and [i, j+1]
@@ -121,15 +122,15 @@ The distance reduction is done differently based on which of the nodes is fixed:
 - **Only one node is loose**: The loose node is brought closer to the fixed node to reach \( \tau_c \).
 - **Both nodes are fixed**: These nodes are left unchanged.
 
-##Implementation
+## Implementation
 The animation was presented in Unreal Engine 5.0.3 [6] with the code written in C++ and the
 blueprint.
 
 The algorithm 1 illustrates the creation of springs connecting the nodes.
 
-# Algorithm 1: Spring Creation
+### Algorithm 1: Spring Creation
 
-## Procedure 1: `PROCESSNODES(allNodes)`
+#### Procedure 1: `PROCESSNODES(allNodes)`
 
 1. For each 6 nodes:
     - `AddSpringsToNodes(ni, ..., ni+5)`
@@ -141,7 +142,7 @@ The algorithm 1 illustrates the creation of springs connecting the nodes.
 
 ---
 
-## Procedure 2: `ADDSPRINGSTONODES(n1, n2, n3, n4, n5, n6)`
+#### Procedure 2: `ADDSPRINGSTONODES(n1, n2, n3, n4, n5, n6)`
 
 1. Let `a1, a2, a3` be nodes from the first triangle
 2. Let `b1, b2, b3` be nodes from the second triangle
@@ -154,7 +155,7 @@ The algorithm 1 illustrates the creation of springs connecting the nodes.
 
 ![Blueprint for the human character]({{site.baseurl}}/images/pages/MMA/UE.png)
 
-##Implementation difficulties
+## Implementation difficulties
 
 One of the difficulties we encountered during the implementation was converting the skirt mesh
 asset created from the fbx file to the grid and the mesh. Since Unreal Engine cannot deal with sharp
