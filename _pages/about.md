@@ -8,8 +8,6 @@ Computer Graphics and Games and a Master's degree in Computer Graphics. My Maste
 Tight Bounding Volume for Bounding Volume Hierarchies", focused on efficiently building data structures
 representing a 3D scene for optimised rendering using GPU programming with CUDA and C++.
 
-***
-
 ### About my studies
 
 During my education, I gained valuable experience in coding in many different languages such as
@@ -29,8 +27,3 @@ Between August 2023 and January 2024, I participated in the Erasmus study abroad
 ### Work experience
 
 Since February 2022, I have been working as a Junior Software Engineer at Oracle NetSuite, specializing in Java development.Working on high-bussiness impact product requires precision, speed, and effective communication with project managers, technical support, and other teams from all around the world. In this role, I have developed strong debugging skills and am comfortable navigating complex legacy codebases to deliver efficient solutions. Additionally, I have contributed to improving code maintainability by implementing robust test coverage and refactoring critical components.
-
-***
-
-*Thank You for reading!*
-
