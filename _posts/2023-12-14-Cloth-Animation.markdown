@@ -42,85 +42,94 @@ These rules set the position of the specific type of spring:
 ![Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [5]]({{site.baseurl}}/images/pages/PGR/SpringForces.png)
 
 ## Forces
-The principle of the dynamics of the simulation is based on **Newton’s law**:
+The principle of the dynamics of the simulation is based on Newton’s law:
 
-\[ F = ma \]
+$$ F = ma $$
 
-Where:
-- \( m \) is the mass
-- \( a \) is the acceleration of the particle.
+where:
+- $m$ is the mass, and
+- $a$ is the acceleration of the particle.
 
-The mesh is represented by \( h \times w \) masses stored in a grid. For each particle in the system, a force \( F \) acting on it is calculated. The force is computed from the internal spring forces and external forces like gravity, wind, etc. Each particle is positioned at time \( t \) on the point \( P_{i,j}(t) \), where \( i = 1, \dots, w \) and \( j = 1, \dots, h \).
+The mesh is represented by $h \times w$ masses stored in a grid, and for each particle in the system, a force $F$ acting on it is calculated. 
 
-### Dynamics of the System
+The force is calculated from the internal spring forces and external forces like gravity, wind, etc. Each particle is positioned at time $t$ at the point $P_{i,j}(t)$, where $i = 1, \ldots, w$ and $j = 1, \ldots, h$.
+
+## Dynamics of the System
 
 The dynamics of the system are computed as follows:
 
-\[
-F_{i,j} = \mu a_{i,j}^2
-\]
+$$ F_{i,j} = \mu a_{i,j}^2 $$
 
-Where \( \mu \) is the mass of each point \( P_{i,j} \) and \( a_{i,j} \) is its acceleration [4].
+where:
+- $\mu$ is the mass of each point $P_{i,j}$, and
+- $a_{i,j}$ is its acceleration [4].
 
-The position \( P_{i,j}(t+1) \) for mass \( (i, j) \) is calculated as:
+The position $P_{i,j}(t + 1)$ for mass $(i, j)$ is calculated as:
 
-\[
-a_{i,j}(t + \Delta t) = \frac{1}{m} F_{i,j}(t)
-\]
+$$ a_{i,j}(t + \Delta t) = \frac{1}{m} F_{i,j}(t) $$
 
-\[
-v_{i,j}(t + \Delta t) = v_{i,j}(t) + \Delta t \times a_{i,j}(t + \Delta t)
-\]
+$$ v_{i,j}(t + \Delta t) = v_{i,j}(t) + \Delta t \cdot a_{i,j}(t + \Delta t) $$
 
-\[
-P_{i,j}(t + \Delta t) = P_{i,j}(t) + \Delta t \times v_{i,j}(t + \Delta t)
-\]
+$$ P_{i,j}(t + \Delta t) = P_{i,j}(t) + \Delta t \cdot v_{i,j}(t + \Delta t) $$
 
-### Internal Spring Force
+---
 
-Internal spring force \( F_s \) is calculated according to **Hooke’s law**:
+## Internal Spring Force
 
-\[
-F_{s_{i,j}} = -k_s (|x_i - x_j| - r) \frac{x_i - x_j}{|x_i - x_j|}
-\]
+The internal spring force $F_s$ is calculated according to Hooke’s law:
 
-Where:
-- \( x_i - x_j \) is the difference between the positions of two particles.
-- \( r \) is the rest length of the spring.
-- \( k_s \) is the elastic modulus of the spring. 
+$$ F_{s, i,j} = -k_s \left( \lvert x_i - x_j \rvert - r \right) \frac{x_i - x_j}{\lvert x_i - x_j \rvert} $$
 
-\( k_s \) value should be large for structural springs and small for shear and flexion springs [3].
+where:
+- $x_i - x_j$ is the difference between the positions of the two particles,
+- $r$ is the rest length of the spring, and
+- $k_s$ is the elastic modulus of the spring.
 
-### Damping Forces
+The value of $k_s$ should be:
+- Large for structural springs, and
+- Small for shear and flexion springs [3].
 
-Damping forces represent energy dissipation due to internal friction, modeled as:
+---
 
-\[
-F_{d_{i,j}} = d \frac{(v_i - v_j)(x_i - x_j)}{|x_i - x_j|^2} \frac{x_i - x_j}{|x_i - x_j|}
-\]
+## Damping Forces
 
-Where:
-- \( d \) is the damping factor.
+Damping forces represent energy dissipation due to internal friction. These forces are modeled as:
 
-### Provot's Observation
+$$ F_{d, i,j} = d \frac{(v_i - v_j)(x_i - x_j)}{\lvert x_i - x_j \rvert^2}(x_i - x_j) $$
 
-Provot [1] observed that cloth could behave unrealistically when it is hanging with some fixed points. He claims that the cloth should be elongated by a maximum of 10%, which is not achieved in this case. The springs are elongated even more than 100% of their natural length.
+where:
+- $d$ is the damping factor.
 
-He proposed a solution by thresholding the deformation rate in structural and shear springs. The deformation occurs mostly at points connected to the fixed corners.
+---
 
-### To Avoid "Super-Elastic" Effect
+## Addressing "Super-Elastic" Effects
 
-To avoid the so-called "super-elastic" effect, it is necessary to increase the damping coefficient.
+Provot [1] observed that cloth could behave unrealistically when it is hanging with some fixed points. He noted that cloth should elongate only by a maximum of 10%, but this is not achieved when springs are elongated by more than 100% of their natural length. 
 
-Provot suggested implementing an **ad hoc dynamic inverse procedure** applied to the affected springs to lower their elongation. If the deformation rate of each spring is greater than a critical deformation rate \( \tau_c \), then the inverse procedure is applied to those springs. If \( \tau_c = 0.1 \), then the springs are not elongated by more than 10% of their natural length.
+### Proposed Solution
+Provot proposed a solution by thresholding the deformation rate in structural and shear springs. The deformation occurs mostly at points connected to fixed corners. 
 
-### Distance Reduction Based on Fixed Nodes
+To avoid the so-called "super-elastic" effect:
+1. **Increase the damping coefficient.**
+2. **Implement an ad hoc dynamic inverse procedure** for affected springs to lower their elongation.
 
-The distance reduction is done differently based on which of the nodes is fixed:
+---
 
-- **Both nodes are loose**: Both nodes are brought together to the middle of the spring so that they shrink until the rate of shrinking reaches \( \tau_c \).
-- **Only one node is loose**: The loose node is brought closer to the fixed node to reach \( \tau_c \).
-- **Both nodes are fixed**: These nodes are left unchanged.
+## Critical Deformation Rate
+
+If the deformation rate of a spring exceeds a critical deformation rate $\tau_c$, then the inverse procedure is applied. For example:
+- If $\tau_c = 0.1$, springs are not prolonged by more than 10% of their natural length.
+
+The distance reduction is done differently based on the node configurations:
+
+1. **Both nodes are loose:**  
+   Both nodes are evenly brought together to the middle of the spring until the shrinking rate reaches $\tau_c$.
+
+2. **Only one node is loose:**  
+   The loose node is brought closer to the fixed node until the shrinking rate reaches $\tau_c$.
+
+3. **Both nodes are fixed:**  
+   These nodes remain unchanged.
 
 ## Implementation
 The animation was presented in Unreal Engine 5.0.3 [6] with the code written in C++ and the
@@ -195,7 +204,7 @@ the cloth springs between mesh’s vertices.
 
 ![llustration of implemented spring]({{site.baseurl}}/images/pages/MMA/Dancer2.png)
 
-References
+## References
 [1] Xavier Provot. Deformation constraints in a mass-spring model to describe rigid cloth behavior.
 In Wayne A. Davis and Przemyslaw Prusinkiewicz, editors, Graphics Interface ’95, pages
 147–154. Canadian Human-Computer Communications Society, 1995.
@@ -204,4 +213,8 @@ In Wayne A. Davis and Przemyslaw Prusinkiewicz, editors, Graphics Interface ’9
 Department of Industrial Design, National Cheng Kung University, 2006.
 
 [6] Epic Games, 2019. Unreal Engine, Available at: https://www.unrealengine.com.
+
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
 
