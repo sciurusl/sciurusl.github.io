@@ -5,7 +5,8 @@ date:   2024-06-01 12:46:27 +0300
 img: DP/HairballOBBDiTO.PNG
 tags: [Ray Tracing, Data Structures, C++, CUDA, GPU Programming]
 ---
-As my Masters thesis, I made a research on the Usage of Tight Bounding Volumes for Bounding Volume Hierarchies.
+For my Master's thesis, I conducted research on the use of tight bounding volumes in bounding volume hierarchies.
+
 This thesis reviews methods for building bounding volume hierarchies (BVH) for ray tracing. It focuses on techniques applicable to interactive applications with dynamic scenes. Based on the research of these techniques, two efficient BVH construction algorithms that use tight bounding volumes, such as OBB and ODOP, are implemented. For the implementation, available codes in the CUDA language were used and unified inside a common framework. The resulting BVHs were compared in terms of their construction speed and ray tracing speed on six different scenes. The bottlenecks of this construction were discussed, and possible improvements were suggested.
 
 <div style="display: flex; justify-content: space-around;">
