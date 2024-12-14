@@ -17,7 +17,7 @@ This thesis reviews methods for building bounding volume hierarchies (BVH) for r
 
 BVH constructed using different construction methods built over the Hairball scene. From left: AABB, OBB using the DiTO algorithm, OBB using the ODOP algorithm.
 
-<object data="https://dspace.cvut.cz/bitstream/handle/10467/94656/https://dspace.cvut.cz/bitstream/handle/10467/114563/F3-DP-2024-Veverkova-Lucie-Using%20Tight%20Bounding%20Volumes%20for%20Bounding%20Volume%20Hierarchies.pdf?sequence=-1&isAllowed=y" width="100%" height="1080px" type='application/pdf'></object>
+<object data="{{site.baseurl}}/pdf/Creating-model-of-mazda.pdf" width="100%" height="1080px" type='application/pdf'></object>
 
 The project can be downloaded here: [Download](https://dspace.cvut.cz/bitstream/handle/10467/114563/F3-DP-2024-Veverkova-Lucie-priloha-final.7z.001?sequence=-1&isAllowed=y) 
 
