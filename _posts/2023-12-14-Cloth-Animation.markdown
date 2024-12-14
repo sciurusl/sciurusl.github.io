@@ -49,8 +49,8 @@ The principle of the dynamics of the simulation is based on Newton’s law:
 $$ F = ma $$
 
 where:
-- $m$ is the mass, and
-- $a$ is the acceleration of the particle.
+- m is the mass, and
+- a is the acceleration of the particle.
 
 The mesh is represented by $h \times w$ masses stored in a grid, and for each particle in the system, a force $F$ acting on it is calculated. 
 
@@ -63,8 +63,8 @@ The dynamics of the system are computed as follows:
 $$ F_{i,j} = \mu a_{i,j}^2 $$
 
 where:
-- $\mu$ is the mass of each point $P_{i,j}$, and
-- $a_{i,j}$ is its acceleration [4].
+&mu; is the mass of each point \(P<sub>i,j</sub>\), and
+\(a<sub>i,j</sub>\) is its acceleration [3].
 
 The position $P_{i,j}(t + 1)$ for mass $(i, j)$ is calculated as:
 
@@ -213,6 +213,9 @@ In Wayne A. Davis and Przemyslaw Prusinkiewicz, editors, Graphics Interface ’9
 
 [2] Shin-Wen Hsiao, Rong-Qi Chen. A Method of Drawing Cloth Patterns With Fabric Behavior.
 Department of Industrial Design, National Cheng Kung University, 2006.
+
+[3] Provot, Xavier. (2001). Deformation Constraints in a Mass-Spring Model to Describe Rigid
+Cloth Behavior. Graphics Interface. 23(19).
 
 [6] Epic Games, 2019. Unreal Engine, Available at: https://www.unrealengine.com.
 
