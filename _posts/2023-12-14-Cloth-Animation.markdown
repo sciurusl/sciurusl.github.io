@@ -8,9 +8,9 @@ tags: [Physics, Animation, Unreal Engine, C++]
 The goal of this univeristy project was to implement a simulation of cloth model as a skirt on a dancer. The simulation is implemented in
 Unreal Engine 5.0.3.
 
-The project was done in pairs, however, I am presenting here the whole result, we were working on it equally without any speicifc division.
+The project was done in pairs, however, I am presenting here the whole result, we were working on it equally without any specific division.
 
-| ![Representation of the particles in animation](/images/pages/MMA/Dancer3.png) | ![Illustration of the collision objects](/images/pages/MMA/Dancer4.png) |
+| ![Representation of the particles in animation](/images/pages/MMA/Dancer3.png){ height=200 } | ![Illustration of the collision objects](/images/pages/MMA/Dancer4.png){ height=200 } |
 
 Cloth simulation is an inseparable part of modern computer graphics, including the entertainment
 industry aiming for realistic depiction. However, the problem with the simulation is the realistic
@@ -37,8 +37,8 @@ These rules set the position of the specific type of spring:
     • Shear springs connect particles with indexes [i,j] and [i+1, j+1], and [i+1,j] and [i, j+1]
     • Flexion springs connect particles with indexes [i,j] and [i+2, j], and [i,j] and [i, j+2]
 
-![Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [5]]({{site.baseurl}}/images/pages/PGR/SpringForces.png)
-Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [5]
+![Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [2]](/images/pages/MMA/SpringForces.png)
+Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [2]
 
 ## Forces
 The principle of the dynamics of the simulation is based on Newton’s law:
@@ -193,8 +193,7 @@ be dependent on the number of FPS.
 ## Results
 
 The final simulation was tested on the university’s computer which has following parameters:
-Intel(R) Core(TM) i9-10900x CPU @ 3.70GHz, 10 Core(s);RAM 32 GB; GPU NVIDIA GeForce GTX 1070 Ti. The simulation was running with thoroughly chosen parameters which can be seen in
-Figure 5.
+Intel(R) Core(TM) i9-10900x CPU @ 3.70GHz, 10 Core(s);RAM 32 GB; GPU NVIDIA GeForce GTX 1070 Ti. The simulation was running with thoroughly chosen parameters which can be seen below.
 
 The resulting images 3 show us the simulated skirt on which we can recognise some parts where
 the skirt is hidden under the human body. Due to the required computer performance, we had to use
@@ -209,7 +208,7 @@ the cloth springs between mesh’s vertices.
 In Wayne A. Davis and Przemyslaw Prusinkiewicz, editors, Graphics Interface ’95, pages
 147–154. Canadian Human-Computer Communications Society, 1995.
 
-[5] Shin-Wen Hsiao, Rong-Qi Chen. A Method of Drawing Cloth Patterns With Fabric Behavior.
+[2] Shin-Wen Hsiao, Rong-Qi Chen. A Method of Drawing Cloth Patterns With Fabric Behavior.
 Department of Industrial Design, National Cheng Kung University, 2006.
 
 [6] Epic Games, 2019. Unreal Engine, Available at: https://www.unrealengine.com.
