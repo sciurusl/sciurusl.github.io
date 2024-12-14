@@ -202,7 +202,7 @@ the simplest 3D model of the skirts. That can be one of the factors why the skir
 human character. In Figure 4 we can see how simple the model is. This image presents structure of
 the cloth springs between mesh’s vertices.
 
-| <img src="/images/pages/MMA/Dancer3.png" alt="Representation of the particles in animation" style="height: 600px; width: 500px; border: none;"> | <img src="/images/pages/MMA/Dancer4.png" alt="Illustration of the collision objects" style="height: 600px; width: 500px; border: none;"> |
+| <img src="/images/pages/MMA/Dancer3.png" alt="Representation of the particles in animation" style="height: 500px; width: 500px; border: none;"> | <img src="/images/pages/MMA/Dancer4.png" alt="Illustration of the collision objects" style="height: 500px; width: 500px; border: none;"> |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Representation of the particles in animation                                                            | Illustration of the collision objects     |
 
