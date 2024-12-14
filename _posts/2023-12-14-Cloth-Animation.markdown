@@ -10,7 +10,9 @@ Unreal Engine 5.0.3.
 
 The project was done in pairs, however, I am presenting here the whole result, we were working on it equally without any specific division.
 
-| ![Representation of the particles in animation](/images/pages/MMA/Dancer3.png){ height=200 } | ![Illustration of the collision objects](/images/pages/MMA/Dancer4.png){ height=200 } |
+| <img src="/images/pages/MMA/Dancer3.png" alt="Representation of the particles in animation" height="200"> | <img src="/images/pages/MMA/Dancer4.png" alt="Illustration of the collision objects" height="200"> |
+|----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Representation of the particles in animation                                                            | Illustration of the collision objects                       
 
 Cloth simulation is an inseparable part of modern computer graphics, including the entertainment
 industry aiming for realistic depiction. However, the problem with the simulation is the realistic
@@ -38,6 +40,7 @@ These rules set the position of the specific type of spring:
     • Flexion springs connect particles with indexes [i,j] and [i+2, j], and [i,j] and [i, j+2]
 
 ![Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [2]](/images/pages/MMA/SpringForces.png)
+
 Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [2]
 
 ## Forces
