@@ -10,8 +10,7 @@ Unreal Engine 5.0.3.
 
 The project was done in pairs, however, I am presenting here the whole result, we were working on it equally without any speicifc division.
 
-| ![Representation of the particles in animation](/images/pages/MMA/Dancing.gif) | ![Illustration of the collision objects](/images/pages/MMA/Dancer4.png) |
-|--------------------------------|--------------------------------|
+| ![Representation of the particles in animation](/images/pages/MMA/Dancer3.png) | ![Illustration of the collision objects](/images/pages/MMA/Dancer4.png) |
 
 Cloth simulation is an inseparable part of modern computer graphics, including the entertainment
 industry aiming for realistic depiction. However, the problem with the simulation is the realistic
@@ -39,6 +38,7 @@ These rules set the position of the specific type of spring:
     • Flexion springs connect particles with indexes [i,j] and [i+2, j], and [i,j] and [i, j+2]
 
 ![Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [5]]({{site.baseurl}}/images/pages/PGR/SpringForces.png)
+Types of spring: a) Structural springs, b) Shear springs, c) Flexion springs [5]
 
 ## Forces
 The principle of the dynamics of the simulation is based on Newton’s law:
@@ -162,6 +162,7 @@ The algorithm 1 illustrates the creation of springs connecting the nodes.
 8. Connect `uniqueNode1` and `uniqueNode2` with a shear spring
 
 ![Blueprint for the human character]({{site.baseurl}}/images/pages/MMA/UE.png)
+Blueprint for the human character
 
 ## Implementation difficulties
 
@@ -201,7 +202,7 @@ the simplest 3D model of the skirts. That can be one of the factors why the skir
 human character. In Figure 4 we can see how simple the model is. This image presents structure of
 the cloth springs between mesh’s vertices.
 
-![Final Animation]({{site.baseurl}}/images/pages/MMA/Dancing2.gif)
+![Final Animation](/images/pages/MMA/Dancing2.gif)
 
 ## References
 [1] Xavier Provot. Deformation constraints in a mass-spring model to describe rigid cloth behavior.
