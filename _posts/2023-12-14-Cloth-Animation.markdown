@@ -10,9 +10,8 @@ Unreal Engine 5.0.3.
 
 The project was done in pairs, however, I am presenting here the whole result, we were working on it equally without any speicifc division.
 
-![Representation of the particles]({{site.baseurl}}/images/pages/MMA/Dancer2.png)
-
-![Illustration of the collision objects]({{site.baseurl}}/images/pages/MMA/Dancer4.png)
+| ![Representation of the particles in animation](/images/pages/MMA/Dancing.gif) | ![Illustration of the collision objects](/images/pages/MMA/Dancer4.png) |
+|--------------------------------|--------------------------------|
 
 Cloth simulation is an inseparable part of modern computer graphics, including the entertainment
 industry aiming for realistic depiction. However, the problem with the simulation is the realistic
@@ -202,7 +201,7 @@ the simplest 3D model of the skirts. That can be one of the factors why the skir
 human character. In Figure 4 we can see how simple the model is. This image presents structure of
 the cloth springs between mesh’s vertices.
 
-![llustration of implemented spring]({{site.baseurl}}/images/pages/MMA/Dancer2.png)
+![Final Animation]({{site.baseurl}}/images/pages/MMA/Dancing2.gif)
 
 ## References
 [1] Xavier Provot. Deformation constraints in a mass-spring model to describe rigid cloth behavior.
