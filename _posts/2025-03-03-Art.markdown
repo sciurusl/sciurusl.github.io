@@ -9,11 +9,11 @@ Besides programming and graphics development, I enjoy painting and creating art 
 
 ## My Paintings
 
-![Painting 1](images/art/painting1.jpg)
-![Painting 2](images/art/painting2.jpg)
-![Painting 3](images/art/painting3.jpg)
-![Painting 4](images/art/painting4.jpg)
-![Painting 5](images/art/painting5.jpg)
-![Painting 6](images/art/painting6.jpg)
-![Painting 7](images/art/painting7.jpg)
-![Painting 8](images/art/painting8.jpg)
+![Painting 1]({{site.baseurl}}/images/art/painting1.jpg)
+![Painting 2]({{site.baseurl}}/images/art/painting2.jpg)
+![Painting 3]({{site.baseurl}}/images/art/painting3.jpg)
+![Painting 4]({{site.baseurl}}/images/art/painting4.jpg)
+![Painting 5]({{site.baseurl}}/images/art/painting5.jpg)
+![Painting 6]({{site.baseurl}}/images/art/painting6.jpg)
+![Painting 7]({{site.baseurl}}/images/art/painting7.jpg)
+![Painting 8]({{site.baseurl}}/images/art/painting8.jpg)
