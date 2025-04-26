@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cloth Animation | Animation of skirt on a dancer
+title:  Cloth Animation | Animation of skirt on a dancer in Unreal Engine
 date:   2023-12-14 10:11:50 +0300
 img: MMA/Dancer0.png
 tags: [Physics, Animation, Unreal Engine, C++]
