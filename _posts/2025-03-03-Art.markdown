@@ -14,13 +14,13 @@ Besides programming and graphics development, I enjoy painting and creating art 
 
   <img src="{{site.baseurl}}/images/pages/art/painting1.jpg" alt="Painting 1" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
   
-  <img src="{{site.baseurl}}/images/pages/art/painting2.jpg" alt="Painting 2" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-  
   <img src="{{site.baseurl}}/images/pages/art/painting3.jpg" alt="Painting 3" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
   
   <img src="{{site.baseurl}}/images/pages/art/painting4.jpg" alt="Painting 4" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
   
   <img src="{{site.baseurl}}/images/pages/art/painting5.jpg" alt="Painting 5" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
+
+  <img src="{{site.baseurl}}/images/pages/art/painting2.jpg" alt="Painting 2" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
   
   <img src="{{site.baseurl}}/images/pages/art/painting6.jpg" alt="Painting 6" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
   
