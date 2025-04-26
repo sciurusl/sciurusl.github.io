@@ -15,21 +15,37 @@ Here’s a small selection of my personal art projects exploring landscapes, lig
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; align-items: flex-start;">
 
-  <img src="{{site.baseurl}}/images/pages/art/painting1.jpg" alt="Painting 1" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting3.jpg" alt="Painting 3" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting4.jpg" alt="Painting 4" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting5.jpg" alt="Painting 5" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  <a href="{{site.baseurl}}/images/pages/art/painting1.jpg" data-lightbox="art-gallery" data-title="Painting 1">
+    <img src="{{site.baseurl}}/images/pages/art/painting1.jpg" alt="Painting 1" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
 
-  <img src="{{site.baseurl}}/images/pages/art/painting2.jpg" alt="Painting 2" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting6.jpg" alt="Painting 6" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting7.jpg" alt="Painting 7" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting8.jpg" alt="Painting 8" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  <a href="{{site.baseurl}}/images/pages/art/painting3.jpg" data-lightbox="art-gallery" data-title="Painting 3">
+    <img src="{{site.baseurl}}/images/pages/art/painting3.jpg" alt="Painting 3" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
+
+  <a href="{{site.baseurl}}/images/pages/art/painting4.jpg" data-lightbox="art-gallery" data-title="Painting 4">
+    <img src="{{site.baseurl}}/images/pages/art/painting4.jpg" alt="Painting 4" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
+
+  <a href="{{site.baseurl}}/images/pages/art/painting5.jpg" data-lightbox="art-gallery" data-title="Painting 5">
+    <img src="{{site.baseurl}}/images/pages/art/painting5.jpg" alt="Painting 5" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
+
+  <a href="{{site.baseurl}}/images/pages/art/painting2.jpg" data-lightbox="art-gallery" data-title="Painting 2">
+    <img src="{{site.baseurl}}/images/pages/art/painting2.jpg" alt="Painting 2" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
+
+  <a href="{{site.baseurl}}/images/pages/art/painting6.jpg" data-lightbox="art-gallery" data-title="Painting 6">
+    <img src="{{site.baseurl}}/images/pages/art/painting6.jpg" alt="Painting 6" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
+
+  <a href="{{site.baseurl}}/images/pages/art/painting7.jpg" data-lightbox="art-gallery" data-title="Painting 7">
+    <img src="{{site.baseurl}}/images/pages/art/painting7.jpg" alt="Painting 7" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
+
+  <a href="{{site.baseurl}}/images/pages/art/painting8.jpg" data-lightbox="art-gallery" data-title="Painting 8">
+    <img src="{{site.baseurl}}/images/pages/art/painting8.jpg" alt="Painting 8" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
 
 </div>
 
