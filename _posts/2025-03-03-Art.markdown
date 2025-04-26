@@ -9,11 +9,26 @@ Besides programming and graphics development, I enjoy painting and creating art 
 
 ## My Paintings
 
-![Painting 1]({{site.baseurl}}/images/art/painting1.jpg)
-![Painting 2]({{site.baseurl}}/images/art/painting2.jpg)
-![Painting 3]({{site.baseurl}}/images/art/painting3.jpg)
-![Painting 4]({{site.baseurl}}/images/art/painting4.jpg)
-![Painting 5]({{site.baseurl}}/images/art/painting5.jpg)
-![Painting 6]({{site.baseurl}}/images/art/painting6.jpg)
-![Painting 7]({{site.baseurl}}/images/art/painting7.jpg)
-![Painting 8]({{site.baseurl}}/images/art/painting8.jpg)
+<br>
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+  <img src="{{site.baseurl}}/images/art/painting1.jpg" alt="Painting 1" style="width: 300px; height: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/art/painting2.jpg" alt="Painting 2" style="width: 300px; height: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/art/painting3.jpg" alt="Painting 3" style="width: 300px; height: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/art/painting4.jpg" alt="Painting 4" style="width: 300px; height: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/art/painting5.jpg" alt="Painting 5" style="width: 300px; height: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/art/painting6.jpg" alt="Painting 6" style="width: 300px; height: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/art/painting7.jpg" alt="Painting 7" style="width: 300px; height: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/art/painting8.jpg" alt="Painting 8" style="width: 300px; height: auto; border-radius: 8px;">
+
+</div>
+
+<br>
