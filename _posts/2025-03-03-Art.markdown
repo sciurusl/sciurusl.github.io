@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Art Gallery
-img: {{site.baseurl}}/images/art/painting1.jpg
+img: images/art/painting1.jpg
 ---
 
 # Art Gallery 🎨
