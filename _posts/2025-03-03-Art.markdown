@@ -4,32 +4,33 @@ title: Art Gallery
 img: art/paintingSunflower.jpg
 ---
 
-# Art Gallery 🎨
+# 🎨 Art Gallery
 
-Besides programming and graphics development, I enjoy painting and creating art in my free time. Here are some of my favorite pieces!
-
-## My Paintings
-
-<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
-
-  <img src="{{site.baseurl}}/images/pages/art/painting1.jpg" alt="Painting 1" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting3.jpg" alt="Painting 3" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting4.jpg" alt="Painting 4" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting5.jpg" alt="Painting 5" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-
-  <img src="{{site.baseurl}}/images/pages/art/painting2.jpg" alt="Painting 2" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting6.jpg" alt="Painting 6" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting7.jpg" alt="Painting 7" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-  
-  <img src="{{site.baseurl}}/images/pages/art/painting8.jpg" alt="Painting 8" style="max-height: 400px; height: auto; width: auto; border-radius: 8px;">
-
+<div align="center">
+In addition to my passion for graphics programming and software development, I also love expressing creativity through traditional painting.  
+Here’s a small selection of my personal art projects exploring landscapes, light, and atmosphere.
 </div>
 
 <br>
 
-<br>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; align-items: flex-start;">
+
+  <img src="{{site.baseurl}}/images/pages/art/painting1.jpg" alt="Painting 1" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/pages/art/painting3.jpg" alt="Painting 3" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/pages/art/painting4.jpg" alt="Painting 4" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/pages/art/painting5.jpg" alt="Painting 5" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+
+  <img src="{{site.baseurl}}/images/pages/art/painting2.jpg" alt="Painting 2" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/pages/art/painting6.jpg" alt="Painting 6" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/pages/art/painting7.jpg" alt="Painting 7" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  
+  <img src="{{site.baseurl}}/images/pages/art/painting8.jpg" alt="Painting 8" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+
+</div>
+
+<br><br>
