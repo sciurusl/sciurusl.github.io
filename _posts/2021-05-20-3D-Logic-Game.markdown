@@ -26,10 +26,10 @@ Each puzzle room introduces a new mechanic or builds on previous ones. Here's a 
 
 ![Modular Room]({{site.baseurl}}/images/pages/BP/MiddleRoom.PNG)
 ![Modular Combinations]({{site.baseurl}}/images/pages/BP/modularComponentsCombination.jpg)
-![Door Prefab]({{site.baseurl}}/images/pages/BP/door_prefab.jpg)
+![Door Prefab]({{site.baseurl}}/images/pages/BP/door_prefab.PNG)
 ![Crate Shader]({{site.baseurl}}/images/pages/BP/NonMirroringCrateShaderGraph.PNG)
 ![Puzzle Room]({{site.baseurl}}/images/pages/BP/puzzle_room.PNG)
-![Blender Asset]({{site.baseurl}}/images/pages/BP/unityCharacterController.jpg)
+![Blender Asset]({{site.baseurl}}/images/pages/BP/unityCharacterController.PNG)
 
 ## Modular Wall Components
 
