@@ -15,6 +15,10 @@ Here’s a small selection of my personal art projects exploring landscapes, lig
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; align-items: flex-start;">
 
+ <a href="{{site.baseurl}}/images/pages/art/painting0.jpg" data-lightbox="art-gallery" data-title="The Withcer">
+    <img src="{{site.baseurl}}/images/pages/art/painting0.jpg" alt="The Witcher" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
+  </a>
+  
   <a href="{{site.baseurl}}/images/pages/art/painting1.jpg" data-lightbox="art-gallery" data-title="Painting 1">
     <img src="{{site.baseurl}}/images/pages/art/painting1.jpg" alt="Painting 1" style="max-height: 350px; height: auto; width: auto; border-radius: 8px;">
   </a>
