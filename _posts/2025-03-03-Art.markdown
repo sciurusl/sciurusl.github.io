@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Art Gallery
-img: art/paintingSunflower.jpg
+img: art/painting0.jpg
 ---
 
 # 🎨 Art Gallery
