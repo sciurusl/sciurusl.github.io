@@ -7,9 +7,7 @@ url: "https://sciurusl.github.io/" # the base hostname & protocol for your site,
 # Banner Section
 hero: 112.jpg
 hero-title: Lucie Veverková
-hero-description: >
-  Let me show you some of my projects.  
-  [LinkedIn](https://www.linkedin.com/in/lucie-veverkova) • 📧 lucie.veverkova1@gmail.com
+hero-description: Let me show you some of my projects 
 
 # Author - Creator
 author-name: Lucie Veverkova
